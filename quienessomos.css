@@ -74,6 +74,8 @@ header {
     width: 48%;
     transition: all 0.3s ease-in-out;
     text-align: center;
+    margin-top: 150px;
+    margin-bottom: 120px;
 }
 
 .card:hover {
@@ -103,15 +105,35 @@ header {
     padding: 0 20px 20px;
 }
 
-.footer {
+footer {
     background-color: #124053;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    text-align: right;
+    padding: 1%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
 }
 
-.footer-container p {
-    font-size: 14px;
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+        color: #1E90FF;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    
+footer a:hover {
+        text-decoration: underline;
+}
+
+footer div img {
+    border-radius: 50%;
+    width: 3rem;
 }
 
 .color1 {

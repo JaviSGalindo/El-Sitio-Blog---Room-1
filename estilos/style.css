@@ -130,3 +130,33 @@ button:hover{
     text-decoration: none;
     color: white;
 }
+footer {
+    background-color: #124053;
+    text-align: right;
+    padding: 1%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+        color: #1E90FF;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    
+footer a:hover {
+        text-decoration: underline;
+}
+
+footer div img {
+    border-radius: 50%;
+    width: 3rem;
+}
