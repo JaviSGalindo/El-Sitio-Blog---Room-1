@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #146d87;
+}
+
+.logo {
+    width: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.inicio:hover{
+    transform: scale(1.2);
+}
+
+.quienes:hover{
+    transform: scale(1.2);
+}
+
+.contacto:hover{
+    transform: scale(1.2);
+}
+
+.lista a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    transition: 0.1s;
+}
+
+.primer_celular{
+    background-color: rgb(32, 218, 216, 0.2);
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.primer_celular img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.primer_celular h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.primer_celular p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 600px;
+}
+
+.segundo_celular{
+    background-color: rgb(32, 218, 216, 0.2);
+    margin-top: 40px;
+    margin-bottom: 90px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.segundo_celular img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.segundo_celular h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.segundo_celular p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 600px;
+}
+
+button{
+    background-color: #124053;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 20px;
+    transition: 0s;
+}
+
+button:hover{
+    background-color: rgb(6, 161, 6);
+    cursor: pointer;
+}
+
+#enlace{
+    text-decoration: none;
+    color: white;
+}
+
+#enlaceDos{
+    text-decoration: none;
+    color: white;
+}
