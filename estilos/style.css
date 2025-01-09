@@ -15,6 +15,27 @@ header {
     background-color: #146d87;
 }
 
+@media (max-width: 800px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 10px;
+    }
+}
+
+
+.iphone{
+    width: 100%;
+}
+
 .logo {
     width: 100px;
     background-color: transparent;
@@ -141,6 +162,16 @@ footer {
     color: aliceblue;
 }
 
+.contenedor_lista{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.lista{
+    text-decoration: none;
+}
+
 footer div {
     display: flex;
     align-items: center;
@@ -150,6 +181,7 @@ footer a {
         color: #1E90FF;
         text-decoration: none;
         font-size: 1.2rem;
+        margin: 10px;
     }
     
 footer a:hover {
@@ -160,3 +192,11 @@ footer div img {
     border-radius: 50%;
     width: 3rem;
 }
+
+@media (max-width: 800px){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
