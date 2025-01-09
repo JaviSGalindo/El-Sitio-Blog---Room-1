@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: "Montserrat", serif;
 }
 
 header {
@@ -28,20 +27,12 @@ header {
         gap: 10px;
     }
 }
-body {
-    font-family: "Montserrat", serif;
-    background-color: #f4f4f4;
-    color: #121b2b;
-}
-
-
 
 .logo {
     width: 100px;
     background-color: transparent;
     border-radius: 50%;
 }
-
 .lista {
     display: flex;
     flex-direction: row;
@@ -50,76 +41,34 @@ body {
     cursor: pointer;
     transition: 0.2s;
 }
-
-.inicio:hover {
+.inicio:hover{
     transform: scale(1.2);
 }
-
-.quienes:hover {
+.quienes:hover{
     transform: scale(1.2);
 }
-
-.contacto:hover {
+.contacto:hover{
     transform: scale(1.2);
 }
-
 .lista a {
     color: white;
     text-decoration: none;
 }
-
-.main-content {
-    padding: 40px 20px;
-    background-color: #ffffff;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121b2b;
+    color: white;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
+h1 {
+    padding: 20px;
+    background-color: #140f07;
 }
-
-.card {
-    background-color: #fff;
-    border: 1px solid #adacac;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 48%;
-    transition: all 0.3s ease-in-out;
-    text-align: center;
-    margin-top: 150px;
-    margin-bottom: 120px;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.card-image img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.card h2 {
-    color: #124053;
-    margin: 20px 0 10px;
-    font-size: 24px;
-    text-align: center;
-}
-
-.card p {
-    color: #121b2b;
-    font-size: 18px;
-    line-height: 1.6;
-    padding: 0 20px 20px;
+div {
+    margin: 10px;
+    padding: 10px;
 }
 
 footer {
@@ -170,33 +119,3 @@ footer div img {
         flex-direction: column;
     }
 } 
-
-
-.color1 {
-    color: #121b2b;
-}
-
-.color2 {
-    color: #124053;
-}
-
-.color3 {
-    color: #146d87;
-}
-
-.color4 {
-    color: #1da7c3;
-}
-
-.color5 {
-    color: #20dad8;
-}
-
-@media (max-width: 768px) {
-    .card {
-        width: 100%;
-    }
-    .container {
-        flex-direction: column;
-    }
-}
